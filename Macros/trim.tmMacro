@@ -46,7 +46,7 @@
 	<key>keyEquivalent</key>
 	<string>@S</string>
 	<key>name</key>
-	<string>trim</string>
+	<string>Trim and Save File</string>
 	<key>uuid</key>
 	<string>7FE50217-C1EA-4ED4-97AE-E7D96BAAE609</string>
 </dict>
