@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>mtl</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>/fun \s*$</string>
+	<key>foldingStopMarker</key>
+	<string>\;;$</string>
+	<key>keyEquivalent</key>
+	<string>^~C</string>
+	<key>name</key>
+	<string>MTL</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.c++</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(nil|HIGH|LOW|INPUT|OUTPUT|DEC|BIN|HEX|OCT|BYTE|PI|HALF_PI|TWO_PI|LSBFIRST|MSBFIRST|CHANGE|FALLING|RISING|DEFAULT|EXTERNAL|INTERNAL|INTERNAL1V1|INTERNAL2V56|null)\b</string>
+			<key>name</key>
+			<string>constant.c++.mtl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(type|var|const)\b</string>
+			<key>name</key>
+			<string>storage.c++.mtl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(label|hd|tl|tabnew|tablen|abs|min|max|rand|srand|strnew|strset|strcpy|vstrcmp|strfind|strfindrev|strlen|strget|strsub|strcat|strcatlist|atoi|htoi|itoa|ctoa|itoh|ctoh|itobin2|strcmp|crypt|uncrypt|listswitch|listswitchstr|led|motorset|motorget|button2|button3|load|save|loopcb|rfidGet|reboot|flashFirmware|gc|corePP|corePush|corePull|coreBit0|netCb|netSend|netState|netMac|netChk|netSetmode|netScan|netAuth|netPmk|netRssi|netSeqAdd|strgetword|strputword|udpStart|udpCb|udpStop|udpSend|tcpOpen|tcpClose|tcpSend|tcpCb|tcpListen|tcpEnable|playStart|playFeed|playStop|recStart|recStop|recVol|sndVol|playTime|sndRefresh|sndWrite|sndRead|sndFeed|sndAmpli|adp2wav|wav2adp|alaw2wav|wav2alaw|Secholn|Secho|Iecholn|Iecho|time|time_ms|bytecode|envget|envset|rfidGetList|rfidRead|rfidWrite|exec|ret|intb|int|nil|drop|dup|getlocalb|getlocal|add|sub|mul|div|mod|and|or|eor|shl|shr|neg|not|non|eq|ne|lt|gt|le|ge|goto|else|mktabb|mktab|deftabb|deftab|fetchb|fetch|getglobalb|getglobal|Secho|Iecho|setlocalb|setlocal|setglobal|setstructb|setstruct|hd|tl|setlocal2|store|call|callrb|callr|first)\b</string>
+			<key>name</key>
+			<string>support.core.c++.mtl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(proto|fun|let)</string>
+			<key>name</key>
+			<string>storage.modifier.c++.mtl</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.c++.mtl</string>
+	<key>uuid</key>
+	<string>F385C06B-1FAB-45B7-A0A9-5DD0828E84A4</string>
+</dict>
+</plist>

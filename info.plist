@@ -5,7 +5,13 @@
 	<key>name</key>
 	<string>RngTng Enhancements</string>
 	<key>ordering</key>
-	<array/>
+	<array>
+		<string>F385C06B-1FAB-45B7-A0A9-5DD0828E84A4</string>
+		<string>F667B6D2-8893-463E-A44F-2E52F15E3112</string>
+		<string>7FE50217-C1EA-4ED4-97AE-E7D96BAAE609</string>
+		<string>AFAB5C6F-73B8-4854-8FD6-FD955ED1B360</string>
+		<string>FCBE2215-19CA-470A-8D92-BB0D00491D62</string>
+	</array>
 	<key>uuid</key>
 	<string>0CA0898D-6D85-4B3A-99B6-2953A5468844</string>
 </dict>
